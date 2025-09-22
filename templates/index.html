@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Anu Enterprise</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero">
+    <canvas id="hero-particles"></canvas>
+    <div class="hero-inner">
+      <img src="static/icons/logo.png" alt="Anu Enterprise Logo" class="hero-logo">
+      <h1 class="title">Anu Enterprise</h1>
+      <p class="subtitle">Expert electronics repair & walk-in accessories</p>
+    </div>
+  </header>
+
+  <!-- About -->
+  <section class="section" id="about" data-animate>
+    <h2>About Us</h2>
+    <div class="about-content">
+      <p>
+        At Anu Enterprise, we specialize in repairing mobile phones, laptops, tablets, and telecom devices.
+        We also stock essential accessories — chargers, cables, covers, and more. Walk in for fast, reliable service.
+      </p>
+      <img src="/static/repair.jpg" alt="Repair work" class="about-img">
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="section" id="services" data-animate>
+    <canvas id="circuit-canvas"></canvas>
+    <h2>Our Services</h2>
+    <div class="cards-grid">
+      <div class="card">
+        <img src="/static/icons/phone.svg" alt="Phone Repair" class="card-icon">
+        <p>Phone Repairs</p>
+      </div>
+      <div class="card">
+        <img src="/static/icons/laptop.svg" alt="Laptop Repair" class="card-icon">
+        <p>Laptop & Tablet Repairs</p>
+      </div>
+      <div class="card">
+        <img src="/static/icons/telecom.svg" alt="Telecom Repair" class="card-icon">
+        <p>Telecom Device Fixes</p>
+      </div>
+      <div class="card">
+        <img src="/static/icons/accessories.svg" alt="Accessories" class="card-icon">
+        <p>Accessories (walk-in only)</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section" id="contact" data-animate>
+    <h2>Contact Us</h2>
+    <p><strong>Address:</strong> Anu Enterprise, Baruipara Bazar, near Baruipara Sabzi Market, Singur, Baruipara, Hoogly-712306</p>
+    <p><strong>Phone:</strong> <a href="tel:+919775162162">9775162162</a></p>
+    <p><strong>Email:</strong> <a href="mailto:ujjal299@gmail.com">ujjal299@gmail.com</a></p>
+
+    <div class="map-container">
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.0297637727363!2d88.23507867494337!3d22.76427667935566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f88777d3d57137%3A0x62b85cfa26cc0157!2sAnu%20Enterprise!5e0!3m2!1sen!2sin!4v1758470170276!5m2!1sen!2sin" 
+        width="100%" 
+        height="300" 
+        style="border:0; border-radius:12px;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2025 Anu Enterprise. All rights reserved.</p>
+  </footer>
+
+  <!-- Custom Cursor -->
+  <div class="custom-cursor"></div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
